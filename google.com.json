@@ -1,0 +1,27 @@
+{
+    "data": {
+        "urls": {
+            "http://google.com/": {
+                "status": 200
+            }
+        },
+        "applications": [
+            {
+                "name": "Google Web Server",
+                "confidence": "100",
+                "version": null,
+                "icon": "Google.svg",
+                "website": "http://en.wikipedia.org/wiki/Google_Web_Server",
+                "cpe": "cpe:/a:google:web_server",
+                "categories": [
+                    {
+                        "22": "Web servers"
+                    }
+                ]
+            }
+        ],
+        "meta": {
+            "language": "en-SG"
+        }
+    }
+}

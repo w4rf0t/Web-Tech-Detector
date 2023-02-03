@@ -1,0 +1,66 @@
+{
+    "data": {
+        "urls": {
+            "http://example.com/": {
+                "status": 200
+            }
+        },
+        "applications": [
+            {
+                "name": "Azure CDN",
+                "confidence": "100",
+                "version": null,
+                "icon": "azure.svg",
+                "website": "https://azure.microsoft.com/en-us/services/cdn/",
+                "cpe": null,
+                "categories": [
+                    {
+                        "31": "CDN"
+                    }
+                ]
+            },
+            {
+                "name": "Amazon ECS",
+                "confidence": "100",
+                "version": null,
+                "icon": "aws.svg",
+                "website": "https://aws.amazon.com/elasticloadbalancing/",
+                "cpe": null,
+                "categories": [
+                    {
+                        "63": "IaaS"
+                    }
+                ]
+            },
+            {
+                "name": "Amazon Web Services",
+                "confidence": "0",
+                "version": null,
+                "icon": "aws.svg",
+                "website": "https://aws.amazon.com/",
+                "cpe": null,
+                "categories": [
+                    {
+                        "62": "PaaS"
+                    }
+                ]
+            },
+            {
+                "name": "Docker",
+                "confidence": "0",
+                "version": null,
+                "icon": "Docker.svg",
+                "website": "https://www.docker.com/",
+                "cpe": "cpe:/a:docker:engine",
+                "categories": [
+                    {
+                        "60": "Containers"
+                    }
+                ]
+            }
+        ],
+        "meta": {
+            "language": "en"
+        }
+    }
+}

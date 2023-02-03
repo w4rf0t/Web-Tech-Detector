@@ -1,0 +1,53 @@
+{
+    "data": {
+        "urls": {
+            "http://w3school.com/": {
+                "status": 200
+            }
+        },
+        "applications": [
+            {
+                "name": "Apache",
+                "confidence": "100",
+                "version": null,
+                "icon": "Apache.svg",
+                "website": "http://apache.org",
+                "cpe": "cpe:/a:apache:http_server",
+                "categories": [
+                    {
+                        "22": "Web servers"
+                    }
+                ]
+            },
+            {
+                "name": "TrackJs",
+                "confidence": "100",
+                "version": null,
+                "icon": "TrackJs.png",
+                "website": "http://trackjs.com",
+                "cpe": null,
+                "categories": [
+                    {
+                        "10": "Analytics"
+                    }
+                ]
+            },
+            {
+                "name": "W3Counter",
+                "confidence": "100",
+                "version": null,
+                "icon": "W3Counter.png",
+                "website": "http://www.w3counter.com",
+                "cpe": null,
+                "categories": [
+                    {
+                        "10": "Analytics"
+                    }
+                ]
+            }
+        ],
+        "meta": {
+            "language": "en"
+        }
+    }
+}
